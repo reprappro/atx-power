@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 15 Nov 2013 09:59:00 GMT
+
+BeginCmp
+TimeStamp = /52250796;
+Reference = J1;
+ValeurCmp = ATX24;
+IdModule  = ATX24_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52250ABA;
+Reference = K1;
+ValeurCmp = HDR1;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52272979;
+Reference = LED1;
+ValeurCmp = PWR_OK;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52699F14;
+Reference = LED2;
+ValeurCmp = 5VS;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52250AA8;
+Reference = P2;
+ValeurCmp = ATX4;
+IdModule  = ATX4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52250AC4;
+Reference = P3;
+ValeurCmp = PWR_OUT;
+IdModule  = TERM_2-WAY_24A;
+EndCmp
+
+BeginCmp
+TimeStamp = /52272994;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52699F00;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5269A032;
+Reference = R3;
+ValeurCmp = 30R;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5269A037;
+Reference = R4;
+ValeurCmp = 22R;
+IdModule  = R7;
+EndCmp
+
+EndListe

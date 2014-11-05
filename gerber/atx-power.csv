@@ -1,0 +1,11 @@
+Id	Designator	Package	Quantity	Designation	Supplier and ref	
+1	K1	PIN_ARRAY_3X1	1	HDR1	1813139	http://uk.farnell.com/molex/22-28-4032/board-board-connector-header-3way/dp/1813139
+2	J1	ATX24_VERTICAL	1	ATX24	5900-W24ST	http://www.toby.co.uk/content/catalogue/products.aspx?series=5900-WxxST
+3	R3	R7	1	30R	Not populated	
+4	R4	R7	1	22R	Not populated	
+5	R1	R2	R3	2	1k	http://uk.farnell.com/multicomp/mcre000037/resistor-carbon-film-1k-0-125w/dp/1700237
+6	LED1	LED-3MM	1	PWR_OK		http://uk.farnell.com/kingbright/l-934id-12v/led-resistor-3mm-red-12v/dp/2217963
+7	LED2	LED-3MM	1	5VS		http://uk.farnell.com/kingbright/l-934id-12v/led-resistor-3mm-red-12v/dp/2217963
+8	P3	TERM_2-WAY_24A	1	PWR_OUT		http://uk.farnell.com/camden-boss/ctb0110-2/terminal-block-2way/dp/3882573
+9	M4	M4	4mm-mount	2	Not populated	
+10	P2	ATX4	1	ATX4	5900-W04ST	http://www.toby.co.uk/content/catalogue/products.aspx?series=5900-WxxST

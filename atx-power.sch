@@ -1,0 +1,352 @@
+EESchema Schematic File Version 2  date Fri 15 Nov 2013 00:15:17 GMT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:emaker
+LIBS:SparkFun
+LIBS:atx-power-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "15 nov 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2300 5200 2300 5350
+Wire Wire Line
+	2000 2950 2000 3650
+Wire Wire Line
+	7500 3850 7500 3800
+Wire Wire Line
+	7500 3800 7700 3800
+Wire Wire Line
+	4450 5450 4450 5500
+Wire Wire Line
+	8550 3300 8550 3100
+Connection ~ 4450 2750
+Wire Wire Line
+	4300 2750 4450 2750
+Wire Wire Line
+	4450 2550 4450 3050
+Wire Wire Line
+	4450 3050 4300 3050
+Connection ~ 3000 2850
+Wire Wire Line
+	3200 2850 3000 2850
+Wire Wire Line
+	2300 4150 2300 4250
+Wire Wire Line
+	6100 3800 6100 4100
+Wire Wire Line
+	6100 4100 5950 4100
+Wire Wire Line
+	6100 4500 6100 4200
+Wire Wire Line
+	6100 4200 5950 4200
+Wire Wire Line
+	4450 3250 4450 3550
+Connection ~ 3050 4150
+Wire Wire Line
+	3050 4150 3200 4150
+Connection ~ 3050 3950
+Wire Wire Line
+	3050 3950 3200 3950
+Connection ~ 3050 3750
+Wire Wire Line
+	3050 3750 3200 3750
+Wire Wire Line
+	4300 4050 4450 4050
+Wire Wire Line
+	4450 3450 4300 3450
+Wire Wire Line
+	2550 3150 2550 2950
+Wire Wire Line
+	2550 2950 2000 2950
+Wire Wire Line
+	2850 3250 2550 3250
+Wire Wire Line
+	4300 3950 4650 3950
+Wire Wire Line
+	3200 3350 2550 3350
+Wire Wire Line
+	6000 3300 6000 3500
+Connection ~ 3050 3650
+Wire Wire Line
+	3050 3850 3200 3850
+Connection ~ 3050 3850
+Wire Wire Line
+	3050 4050 3200 4050
+Connection ~ 3050 4050
+Wire Wire Line
+	3050 4250 3200 4250
+Connection ~ 3050 4250
+Wire Wire Line
+	4450 3550 4300 3550
+Connection ~ 4450 3450
+Wire Wire Line
+	5950 4300 6100 4300
+Connection ~ 6100 4300
+Wire Wire Line
+	5950 4000 6100 4000
+Connection ~ 6100 4000
+Wire Wire Line
+	3200 2950 3000 2950
+Wire Wire Line
+	3000 2950 3000 2550
+Wire Wire Line
+	3200 2750 3000 2750
+Connection ~ 3000 2750
+Wire Wire Line
+	4300 2850 4450 2850
+Connection ~ 4450 2850
+Wire Wire Line
+	2000 3650 3200 3650
+Wire Wire Line
+	7700 3300 7700 3100
+Wire Wire Line
+	8550 3800 8550 3950
+Wire Wire Line
+	6000 3100 5900 3100
+Wire Wire Line
+	3050 4350 3050 3650
+Wire Wire Line
+	4450 4050 4450 4650
+Wire Wire Line
+	2300 4700 2300 4550
+$Comp
+L GND #PWR01
+U 1 1 528399E1
+P 3050 4350
+F 0 "#PWR01" H 3050 4350 30  0001 C CNN
+F 1 "GND" H 3050 4280 30  0001 C CNN
+	1    3050 4350
+	1    0    0    -1  
+$EndComp
+Text Label 2850 3250 0    60   ~ 0
+PSON
+Text Label 4650 3950 0    60   ~ 0
+PSON
+$Comp
+L GND #PWR02
+U 1 1 5269A045
+P 8550 3950
+F 0 "#PWR02" H 8550 3950 30  0001 C CNN
+F 1 "GND" H 8550 3880 30  0001 C CNN
+	1    8550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5269A042
+P 7500 3850
+F 0 "#PWR03" H 7500 3850 30  0001 C CNN
+F 1 "GND" H 7500 3780 30  0001 C CNN
+	1    7500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5269A037
+P 8550 3550
+F 0 "R4" V 8630 3550 50  0000 C CNN
+F 1 "22R" V 8550 3550 50  0000 C CNN
+	1    8550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5269A032
+P 7700 3550
+F 0 "R3" V 7780 3550 50  0000 C CNN
+F 1 "30R" V 7700 3550 50  0000 C CNN
+	1    7700 3550
+	1    0    0    -1  
+$EndComp
+Text Label 8550 3100 0    60   ~ 0
+3.3v
+Text Label 7700 3100 0    60   ~ 0
+5v
+Text Label 4450 2550 0    60   ~ 0
+3.3v
+Text Label 3000 2550 0    60   ~ 0
+5v
+$Comp
+L GND #PWR04
+U 1 1 52699F19
+P 2300 5350
+F 0 "#PWR04" H 2300 5350 30  0001 C CNN
+F 1 "GND" H 2300 5280 30  0001 C CNN
+	1    2300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED0603 LED?
+U 1 1 52699F14
+P 2300 4350
+AR Path="/52272979" Ref="LED?"  Part="1" 
+AR Path="/52699F14" Ref="LED2"  Part="1" 
+F 0 "LED2" V 2100 4200 50  0000 L BNN
+F 1 "5VS" V 2500 4200 50  0000 L BNN
+F 2 "SparkFun-LED-0603" H 2300 4500 50  0001 C CNN
+	1    2300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 52699F00
+P 2300 4950
+F 0 "R2" V 2380 4950 50  0000 C CNN
+F 1 "1k" V 2300 4950 50  0000 C CNN
+	1    2300 4950
+	1    0    0    -1  
+$EndComp
+Text Label 2300 4150 0    60   ~ 0
+5VS
+Text Label 2950 3350 0    60   ~ 0
+5VS
+$Comp
+L CONN_4 P2
+U 1 1 52250AA8
+P 5600 4150
+F 0 "P2" V 5550 4150 50  0000 C CNN
+F 1 "ATX4" V 5650 4150 50  0000 C CNN
+	1    5600 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR05
+U 1 1 52250C0D
+P 6100 3800
+F 0 "#PWR05" H 6100 3750 20  0001 C CNN
+F 1 "+12V" H 6100 3900 30  0000 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 52272C3F
+P 6100 4500
+F 0 "#PWR06" H 6100 4500 30  0001 C CNN
+F 1 "GND" H 6100 4430 30  0001 C CNN
+	1    6100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 52272994
+P 4450 5200
+F 0 "R1" V 4530 5200 50  0000 C CNN
+F 1 "1k" V 4450 5200 50  0000 C CNN
+	1    4450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED0603 LED1
+U 1 1 52272979
+P 4450 4750
+F 0 "LED1" V 4250 4600 50  0000 L BNN
+F 1 "PWR_OK" V 4650 4600 50  0000 L BNN
+F 2 "SparkFun-LED-0603" H 4450 4900 50  0001 C CNN
+	1    4450 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR07
+U 1 1 52250C58
+P 4450 3250
+F 0 "#PWR07" H 4450 3200 20  0001 C CNN
+F 1 "+12V" H 4450 3350 30  0000 C CNN
+	1    4450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 52250C53
+P 4450 5500
+F 0 "#PWR08" H 4450 5500 30  0001 C CNN
+F 1 "GND" H 4450 5430 30  0001 C CNN
+	1    4450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR09
+U 1 1 52250BF5
+P 5900 3100
+F 0 "#PWR09" H 5900 3050 20  0001 C CNN
+F 1 "+12V" H 5900 3200 30  0000 C CNN
+	1    5900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 52250BED
+P 6000 3500
+F 0 "#PWR010" H 6000 3500 30  0001 C CNN
+F 1 "GND" H 6000 3430 30  0001 C CNN
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 52250AC4
+P 6350 3200
+F 0 "P3" V 6300 3200 40  0000 C CNN
+F 1 "PWR OUT" V 6400 3200 40  0000 C CNN
+	1    6350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 52250ABA
+P 2200 3250
+F 0 "K1" V 2150 3250 50  0000 C CNN
+F 1 "HDR1" V 2250 3250 40  0000 C CNN
+	1    2200 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L ATX24RH J1
+U 1 1 52250796
+P 3800 3450
+F 0 "J1" H 3800 4300 50  0000 C CNN
+F 1 "ATX24" H 3800 2500 50  0000 C CNN
+F 2 "SparkFun-ATX24_RIGHT_ANGLE" H 3800 2400 50  0001 C CNN
+	1    3800 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,100 @@
+# EESchema Netlist Version 1.1 created  Fri 15 Nov 2013 09:59:00 GMT
+(
+ ( /52250796 ATX24_VERTICAL J1 ATX24
+  ( 1 /3.3v )
+  ( 2 /3.3v )
+  ( 3 GND )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 N-000005 )
+  ( 9 /5VS )
+  ( 10 +12V )
+  ( 11 +12V )
+  ( 12 ? )
+  ( 13 /3.3v )
+  ( 14 ? )
+  ( 15 GND )
+  ( 16 /PSON )
+  ( 17 GND )
+  ( 18 GND )
+  ( 19 GND )
+  ( 20 ? )
+  ( 21 /5v )
+  ( 22 /5v )
+  ( 23 /5v )
+  ( 24 ? )
+ )
+ ( /52250ABA PIN_ARRAY_3X1 K1 HDR1
+  ( 1 /5VS )
+  ( 2 /PSON )
+  ( 3 GND )
+ )
+ ( /52272979 LED-3MM LED1 PWR_OK
+  ( 1 N-000005 )
+  ( 2 N-000001 )
+ )
+ ( /52699F14 LED-3MM LED2 5VS
+  ( 1 /5VS )
+  ( 2 N-000002 )
+ )
+ ( /52250AA8 ATX4 P2 ATX4
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 +12V )
+  ( 4 +12V )
+ )
+ ( /52250AC4 TERM_2-WAY_24A P3 PWR_OUT
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /52272994 R3 R1 1k
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /52699F00 R3 R2 1k
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /5269A032 R7 R3 30R
+  ( 1 /5v )
+  ( 2 GND )
+ )
+ ( /5269A037 R7 R4 22R
+  ( 1 /3.3v )
+  ( 2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
